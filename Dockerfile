@@ -9,5 +9,5 @@ RUN set -ex \
 WORKDIR /buckets
 VOLUME /buckets
 
-CMD ["fakes3", "-r", "/buckets", "-p", "80"]
-EXPOSE 80
+CMD ["fakes3", "-r", "/buckets", "-p", "9000"]
+EXPOSE 9000
